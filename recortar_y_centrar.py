@@ -87,7 +87,7 @@ def process_images_in_folder(input_folder, output_folder, crop_width, crop_heigh
                 print(f"No se pudo procesar: {filename}")
 
 # Configuración
-input_folder = r"C:\Users\Bradl\OneDrive\Escritorio\Imagenes carros\Imagenes"  # Carpeta de entrada con las imágenes
+input_folder = r"C:\Users\jtrujillo\Desktop\X7 imagenes"  # Carpeta de entrada con las imágenes
 output_folder = os.path.join(input_folder, "Procesadas")  # Carpeta de salida dentro de la carpeta de entrada
 crop_width = 1000  # Ancho del recorte
 crop_height = 1100  # Altura del recorte

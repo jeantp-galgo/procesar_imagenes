@@ -100,7 +100,7 @@ def process_images_in_folder(input_folder, output_folder, target_width, target_h
                 print(f"Error procesando {filename}: {e}")
 
 # Configuración
-input_folder = r"C:\Users\Bradl\OneDrive\Escritorio\Imagenes carros\Imagenes"
+input_folder = r"C:\Users\jtrujillo\Desktop\X7 imagenes"
 output_folder = os.path.join(input_folder, "Procesadas")  # Carpeta de salida dentro de la carpeta de entrada
 target_width = 1000
 target_height = 1100
