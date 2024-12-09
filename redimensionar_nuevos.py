@@ -1,6 +1,11 @@
 import os
 from PIL import Image
 
+
+"""
+VEHICULOS NUEVOS
+"""
+
 def resize_image(image_path, output_path, target_width, target_height):
     """
     Redimensiona una imagen manteniendo las proporciones.
@@ -56,8 +61,8 @@ def process_images_in_folder(input_folder, output_folder, target_width, target_h
                 print(f"Error procesando {filename}: {e}")
 
 # Configuración
-input_folder = r"C:\Users\jtrujillo\Desktop\X7 imagenes"
-output_folder = os.path.join(input_folder, "Procesadas")  # Carpeta de salida dentro de la carpeta de entrada
+input_folder = r"C:\Users\jtrujillo\Desktop\Archivo actualizaciones\Imagenes recolectadas\06-12-2024\dfsk 500 1.5 luxury mt 5p 2022"
+output_folder = os.path.join(input_folder, "Procesadas_redimensionar_solamente")  # Carpeta de salida dentro de la carpeta de entrada
 target_width = 1000
 target_height = 1100
 
