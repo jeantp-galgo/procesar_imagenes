@@ -100,7 +100,7 @@ def process_images_in_folder(input_folder, output_folder, crop_width, crop_heigh
 
 # Configuración
 input_folder = r"C:\Users\jtrujillo\Desktop\Archivo actualizaciones\Imagenes recolectadas\06-12-2024\dfsk 500 1.5 luxury mt 5p 2022"  # Carpeta de entrada con las imágenes
-output_folder = os.path.join(input_folder, "Procesadas_recortar_y_centrar")  # Carpeta de salida dentro de la carpeta de entrada
+output_folder = os.path.join(input_folder, "Procesadas_nuevos")  # Carpeta de salida dentro de la carpeta de entrada
 crop_width = 1000  # Ancho del recorte
 crop_height = 1100  # Altura del recorte
 

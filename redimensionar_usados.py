@@ -74,7 +74,7 @@ def process_images_in_folder(input_folder, output_folder, target_width, target_h
 
 # Configuración
 input_folder = r"C:\Users\jtrujillo\Desktop\Archivo actualizaciones\Imagenes recolectadas\06-12-2024\dfsk 500 1.5 luxury mt 5p 2022"
-output_folder = os.path.join(input_folder, "Procesadas_ZOOM")  # Carpeta de salida dentro de la carpeta de entrada
+output_folder = os.path.join(input_folder, "Procesadas_usados")  # Carpeta de salida dentro de la carpeta de entrada
 target_width = 1000
 target_height = 1100
 
